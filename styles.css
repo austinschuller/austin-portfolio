@@ -1,4 +1,51 @@
 body {
     background: black;
     color: white;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+#about-me {
+    border-radius: 25px;
+    background: #363535;
+    color: white;
+}
+
+#about-me a {
+    color: white;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
+#contact-information {
+    border-radius: 25px;
+    background: #363535;
+    color: white;
+}
+
+.projects-flex {
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+
+#backdoor-project {
+    border-radius: 25px;
+    background: #363535;
+    flex: 1;
+    width: 50%;
+}
+
+#virustotal-project {
+    border-radius: 25px;
+    background: #363535;
+    width: 50%;
+    float: right;
 }
