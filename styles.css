@@ -1,8 +1,26 @@
+main {
+    flex: 1;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
 body {
+
+    opacity: 0;
+    animation: fadeIn 1.5s ease forwards;
+
     background: black;
     color: white;
     scroll-behavior: smooth;
     text-align: center;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 #about-me {
