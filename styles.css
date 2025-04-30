@@ -1,84 +1,107 @@
 main {
-    flex: 1;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: auto;
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-
 body {
-
-    opacity: 0;
-    animation: fadeIn 1.5s ease forwards;
-
-    background: black;
-    color: white;
-    scroll-behavior: smooth;
-    text-align: center;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+  background: black;
+  color: white;
+  scroll-behavior: smooth;
+  text-align: center;
 }
 
 @keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
-
+/* This is the about me section at the top of the webpage */
 #about-me {
-    border-radius: 25px;
-    background: #363535;
-    color: white;
+  border-radius: 25px;
+  background: #363535;
+  color: white;
+  padding: 10px;
 }
 
+/* This just adjusts the color of the links in the about me section */
 #about-me a {
-    color: white;
+  color: white;
 }
 
-ul {
-    display: inline-block;
-    text-align: left;
+/* sets the pfp to a circle. Works best on images that are the same width and height */
+#pfp {
+  border-radius: 50%;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
+/* Contact information section */
 #contact-information {
-    border-radius: 25px;
-    background: #363535;
-    color: white;
+  border-radius: 25px;
+  background: #363535;
+  color: white;
+  margin: 35px;
+  padding: 10px;
 }
 
+/* Below this line, and until the next newline comment is styling for the projects section */
 .projects-flex {
-    display: flex;
-    color: white;
-    gap: 10px;
+  display: flex;
+  color: white;
+  gap: 10px;
 }
 
 #backdoor-project {
-    border-radius: 25px;
-    background: #363535;
-    flex: 1;
-    width: 50%;
+  border-radius: 25px;
+  background: #363535;
+  flex: 1;
+  width: 50%;
 }
 
 #virustotal-project {
-    border-radius: 25px;
-    background: #363535;
-    width: 50%;
-    float: right;
+  border-radius: 25px;
+  background: #363535;
+  width: 50%;
+  float: right;
 }
 
 .view-code-button {
-    border-radius: 12px;
-    transition-duration: 0.4s;
-    font-size: 16;
-    padding: 13px 30px;
-    text-decoration: none;
-    background-color: #008CBA;
-    text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  font-size: 16;
+  padding: 13px 30px;
+  text-decoration: none;
+  background-color: #008CBA;
+  text-align: center;
 }
 
 .view-code-button:hover {
-    background-color: transparent;
-    border: 2px solid #008CBA;
+  background-color: transparent;
+  border: 2px solid #008CBA;
 }
+
+.disabled-button {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  font-size: 16;
+  padding: 13px 30px;
+  text-decoration: none;
+  background-color: #008CBA;
+  text-align: center;
+  cursor: not-allowed;
+}
+
+.disabled-button:hover {
+  background-color: transparent;
+  border: 2px solid #008CBA;
+}
+
+/* End of projects styling */
+
+/*# sourceMappingURL=styles.css.map */
