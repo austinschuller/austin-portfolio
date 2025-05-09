@@ -84,6 +84,7 @@ a {
 .view-code-button:hover {
   background-color: transparent;
   border: 2px solid #008CBA;
+  transform: scale(1.1);
 }
 
 .disabled-button {
@@ -100,6 +101,36 @@ a {
 .disabled-button:hover {
   background-color: transparent;
   border: 2px solid #008CBA;
+}
+
+/* . for class | # for id */
+#contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+#contact-me .contact-form-container {
+  text-align: left;
+  background: #363535;
+  border-radius: 10%;
+  padding: 20px;
+  width: 500px;
+}
+#contact-me textarea {
+  height: 200px;
+  width: 100%;
+}
+#contact-me input[type=text] {
+  width: 100%;
+}
+#contact-me input[type=email] {
+  width: 100%;
+}
+#contact-me a {
+  display: flex;
+  text-align: center;
 }
 
 /* End of projects styling */
